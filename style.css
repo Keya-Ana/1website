@@ -1,0 +1,85 @@
+/* /* p{
+    color: plum;
+    font: 64px;
+} */
+
+/* * {
+    font-family: monospace;
+    border: 1px solid saddlebrown;
+}
+
+
+body {
+    font-size: 20px;
+    background-color: wheat;
+    border: 3px solid black;
+}
+
+h1, h2{
+    color: rgb(116, 116, 41);
+}
+
+p {
+    color: rebeccapurple;
+} */
+/* 
+p span {
+    text-transform: uppercase;
+    background-color: greenyellow;
+} */
+
+
+/* .highlight {
+    text-transform: uppercase;
+    background-color: yellow;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style: oblique;
+}  */
+
+/* body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: aliceblue;
+    color: grey;
+}
+
+p {
+    color: rgb(151, 123, 86);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 10px double darkolivegreen;
+    margin: 1.5em;
+    font-size: 1.5rem;
+    padding: 1.5em;
+    outline: 5px solid yellowgreen;
+    outline-offset: -20px;
+}
+
+.circle {
+    margin: 3rem auto;
+    background-color: palevioletred;
+    width: 70px;
+    height: 70px;
+    border: 2px solid plum;
+    border-radius: 35px;
+    outline: 2px solid purple;
+    outline-offset: 0.25rem;
+}
+
+/* header {
+    width: 100%;
+} */

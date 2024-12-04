@@ -1,0 +1,16 @@
+html {
+    font-size: 15px
+}
+
+body{
+    background-color: white;
+    color: black;
+}
+
+
+table, tr, th, td, caption {
+    border: 1px solid blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}

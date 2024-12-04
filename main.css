@@ -1,0 +1,27 @@
+html {
+    font-size: 15px
+}
+
+body{
+    background-color: grey;
+    color: beige;
+}
+
+a{
+    color: bisque;
+}
+
+a:visited {
+    color: aqua;
+}
+      
+a:hover, a:active {
+    color: peachpuff
+}
+
+table, tr, th, td, caption {
+    border: 1px solid snow;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
