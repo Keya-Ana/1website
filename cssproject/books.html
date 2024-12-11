@@ -10,14 +10,37 @@
     >
     <title>Christian Girl Shop</title>
     <link rel="icon" href="logo.png" type="image/x.icon" >
-    <link rel="stylesheet" href="cgs.css" type="text/css" >
+    <link rel="stylesheet" href="books.css" type="text/css" >
     <title>Home Page</title>
 </head>
 
 <body>
     <header>
         <nav>
+            <ul>
+                <li>
+                    <!-- <a href="Bible" href="Bible1.png">Bibles</a> -->
+                    <a href="" onclick="showImages()">Bible</a>
 
+                    <!-- Div to hold the images -->
+                    <div id="images">
+                        <img src="Bible.jpg" alt="Bible Image 1" width="300">
+                        <img src="Bible1.jpg" alt="Bible Image 2" width="300">
+                    </div>
+                
+                    <script>
+                        function showImages() {
+                            var imagesDiv = document.getElementById('images');
+                            // Toggle visibility of the images
+                            if (imagesDiv.style.display === 'none') {
+                                imagesDiv.style.display = 'block';
+                            } else {
+                                imagesDiv.style.display = 'none';
+                            }
+                        }
+                    </script>
+                </li>
+            </ul>
         </nav>
     </header>
     <main></main>
