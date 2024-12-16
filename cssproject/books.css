@@ -6,7 +6,39 @@
      box-sizing: border-box;
  }
 
-#images {
-    border: 50%;
-    height: 50%;
+.tag {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 5%;
+}
+
+
+img {
+    border-radius: 10%;
+    border: 5px solid cyan;
+    margin-left: 1.5%;
+}
+
+body {
+    background:no-repeat linear-gradient(to right,rgb(96, 96, 176),skyblue,aliceblue);
+    background-position:right center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+.h1 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+nav a {
+    font-size: larger;
+    padding: 0.5rem;
+    justify-content: space-evenly;
+}
+
+section {
+    font-size: small;
 }
