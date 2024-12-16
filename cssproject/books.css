@@ -19,23 +19,28 @@ img {
     margin-left: 1.5%;
 }
 
-body {
-    background:no-repeat linear-gradient(to right,rgb(96, 96, 176),skyblue,aliceblue);
-    background-position:right center;
-    background-repeat:no-repeat;
-    background-size: cover;
-    height: 100vh;
-    margin: 0;
+hr {
+    margin: 10px ;
 }
 
-.h1 {
+body {
+    background:no-repeat linear-gradient(rgb(96, 96, 176),skyblue,aliceblue);
+    background-position:right center;
+    background-repeat:no-repeat;
+    height: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+h1 {
     text-align: center;
     margin-bottom: 2%;
+    text-decoration: underline;
 }
 
 nav a {
     font-size: larger;
-    padding: 0.5rem;
+    padding: 1rem;
     justify-content: space-evenly;
 }
 
