@@ -164,3 +164,53 @@ footer a{
 .copyright {
   color: beige;
 }
+
+main {
+    flex-grow: 1; 
+}
+
+section {
+    font-size: medium;
+    color:whitesmoke;
+}
+
+div .welcome-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.welcome-message {
+    font-size: ;
+    font-weight: bolder;
+    color: cyan;
+    opacity: 0;
+    transform: scale(0.8);
+    animation: welcome-message 5s forwards;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+@keyframes welcome-message {
+            0% {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            50% {
+                opacity: 1;
+                transform: scale(1.1);
+            }
+            100% {
+                opacity: 1;
+                visibility: hidden;
+                transform: scale(1);
+            }
+}
