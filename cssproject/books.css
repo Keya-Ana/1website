@@ -45,5 +45,6 @@ nav a {
 }
 
 section {
-    font-size: small;
+    font-size: smaller;
+    font-weight: lighter;
 }

@@ -185,7 +185,7 @@ div .welcome-message {
 }
 
 .welcome-message {
-    font-size: ;
+    font-size:larger ;
     font-weight: bolder;
     color: cyan;
     opacity: 0;

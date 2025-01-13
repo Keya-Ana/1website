@@ -1,0 +1,32 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+body {
+    background-image: linear-gradient(rgba(192, 212, 210, 0.5),rgba(255,255,255,0.5) ),url("../cssproject/img/background.jpg") ;
+    background-size: cover;
+    background-position:center ;
+    background-blend-mode: hard-light;
+  }
+
+.tag {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 5%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+img {
+    border-radius: 10%;
+    border: 5px solid saddlebrown;
+    margin-left: 1.5%;
+}
+
+nav a {
+    font-size: larger;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
