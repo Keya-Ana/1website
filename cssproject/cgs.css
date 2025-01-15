@@ -16,6 +16,15 @@
      font-size: 1.5rem;
      font-family: 'Nunito', sans-serif;
  }
+
+ header {
+    max-width: 900px;
+    margin:40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background-image:url("../cssproject/home.webp");
+}
  
  body {
      min-height: 100vh;
@@ -26,6 +35,7 @@
  header {
      background-color: var(--HEADER-BGCOLOR);
      color: var(--HEADER-COLOR);
+
  }
  
  .header-title-line {
@@ -139,7 +149,7 @@
  }
 
 body {
-  background-image:url("../cssproject/home.webp") ;
+  background:rgb(80, 99, 99);
   background-size: cover;
   background-position: center;
   background-blend-mode: luminosity;
@@ -157,13 +167,6 @@ body {
   color: aliceblue;
 }
 
-footer a{
-  color: bisque;
-}
-
-.copyright {
-  color: beige;
-}
 
 main {
     flex-grow: 1; 
@@ -213,4 +216,8 @@ div .welcome-message {
                 visibility: hidden;
                 transform: scale(1);
             }
+}
+
+footer {
+    text-align: center;
 }
