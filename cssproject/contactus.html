@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Starr">
+    <meta
+      name="description"
+      content="This page contains all the things I am learning how to create as I learn front end web design."
+    >
+    <title>Christian Girl Shop</title>
+    <link rel="icon" href="logo.png" type="image/x.icon" >
+    <link rel="stylesheet" href="contact.css" type="text/css" >
+    <title>Contact Page</title>
+</head>
+
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="#hours">Service Hours</a>
+                </li>
+            </ul>
+        </nav>
+    
+  
+        <main>
+            <br>
+                <img
+                src="/cssproject/img/contactus.png"
+                alt="Contact Us"
+                title="How you can get to us"
+                width="500"
+                height="400"
+            >
+            <figure>
+                <figcaption>Reach out to us</figcaption>
+            </figure>
+
+            <h2>Our Contact Form</h2>
+             <br>
+             <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                  <legend>Personal Info</legend>
+                <p>
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="your name"
+                  autocomplete="on"
+                  required
+                  autofocus>
+                </p>
+                <p>
+                    <label for="phone">Phone:</label>
+                    <input
+                      type="tel"
+                      name="phone"
+                      id="phone"
+                      placeholder="your number" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                      required
+                    >
+                </p>
+                <br>
+                <label for="message">Your Message:</label>
+                <br>
+                <textarea name="message" id="message" cols="50" rows="5" placeholder="Type your message here"></textarea>
+              <p>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+              </p>
+              
+
+                </fieldset>
+             </form>
+                
+                
+                <h2>Our Location & Contact</h2>
+                <br>
+                <address>
+                    404 Flower Lane, Love Avenue
+                    Happy city, OT 7075609746
+                </address>
+                <br>
+                Phone <a href="tel:+233 505 696 8688">+233 505 696 8688 </a>
+                Email <a href="christiangirlshop@gmail.com">christiangirlshop@gmail.com</a>
+               
+
+                <hr>
+                <h2>Working Hours </h2>
+                <section>
+                  <p>
+                  <h3>We are available 7 days a week</h3>
+                </p>
+                <p>
+                  <dl>
+                      <dt><li>Mondays-Saturdays</li></dt>
+                      <dd>7am-11pm</dd>
+                      
+                      <dt><li>Sundays</li></dt>
+                      <dd>2pm-10pm</dd>
+                  </dl>
+                </p>
+              </section>
+          
+        </main> 
+      </header>
+        <hr>
+        <footer>
+          <br>
+          <p class="copyright">
+          &lt;&lt;&lt; &copy; Starr Lit &gt;&gt;&gt;
+          </p>
+          <p>
+            <a href="#">Back to Top</a>
+          </p>
+        </footer>
+  </body>
+</html>
+           

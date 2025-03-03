@@ -8,7 +8,7 @@
  }
  
  :root {
-     --HEADER-BGCOLOR: rgb(81, 143, 163);
+     --HEADER-BGCOLOR: rgb(83, 87, 88);
      --HEADER-COLOR: whitesmoke;
  }
  
@@ -18,12 +18,18 @@
  }
 
  header {
+    text-align: center;
     max-width: 900px;
     margin:40px auto;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    background-image:url("../cssproject/home.webp");
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,1) ),url("../cssproject/img/homepage.webp");
+}
+
+h1 {
+    font-weight: bolder;
+    
 }
  
  body {
@@ -149,7 +155,7 @@
  }
 
 body {
-  background:rgb(80, 99, 99);
+  background:rgb(205, 213, 213);
   background-size: cover;
   background-position: center;
   background-blend-mode: luminosity;
@@ -190,7 +196,7 @@ div .welcome-message {
 .welcome-message {
     font-size:larger ;
     font-weight: bolder;
-    color: cyan;
+    color: aliceblue;
     opacity: 0;
     transform: scale(0.8);
     animation: welcome-message 5s forwards;
