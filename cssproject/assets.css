@@ -50,6 +50,32 @@ button {
     white-space: nowrap;
 }
 
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 100%;
+    max-width: 300px; 
+
+}
+
+.image-item button {
+    display: block;
+    margin-top: 10px; 
+}
+
+
+footer {
+    text-align: center;
+}
+
 footer {
     text-align: center;
 }

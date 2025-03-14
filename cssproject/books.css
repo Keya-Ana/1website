@@ -29,11 +29,12 @@ header {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    background-color:skyblue ;
+    background:no-repeat linear-gradient(lightblue,aliceblue,skyblue);
 }
 
 body {
-    background:no-repeat linear-gradient(rgb(96, 96, 176),skyblue,aliceblue);
+    
+    background-color:skyblue ;
     background-position:right center;
     background-repeat:no-repeat;
     height: 100%;
@@ -69,6 +70,28 @@ button {
     font-weight: bold;
     white-space: nowrap;
 }
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 100%;
+    max-width: 300px; 
+
+}
+
+.image-item button {
+    display: block;
+    margin-top: 10px; 
+}
+
 
 footer {
     text-align: center;
