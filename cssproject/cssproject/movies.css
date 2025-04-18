@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+.tag {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 5%;
+}
+
+
+img {
+    border-radius: 10%;
+    border: 5px solid papayawhip;
+    margin-left: 1.5%;
+}
+
+hr {
+    margin: 10px ;
+}
+
+div{
+    color:  lavender;
+}
+
+body {
+    background: linear-gradient(rgba(88, 122, 119, 0.5),rgba(255,255,255,0.5) );
+    background-size: cover;
+    background-position:center ;
+    background-blend-mode: hard-light;
+  }
+
+  header {
+    max-width: 900px;
+    margin:40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../cssproject/img/movie.bg.jpg");
+
+  }
+
+
+.tag {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 5%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2%;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 10%;
+    border: 5px solid papayawhip;
+    margin-left: 1.5%;
+}
+
+
+nav a {
+    font-size: larger;
+    padding: 1rem;
+    justify-content: space-evenly;
+    color: azure;
+}
+
+section {
+    font-size: smaller;
+    font-weight: lighter;
+    
+}
+
+button {
+    border-radius: 15%;
+    border: 5px double rgb(120, 135, 149);
+     margin-left: 10%;
+    margin-top: 0.5%;
+    margin-bottom: 1%;;
+    font-weight: bold;
+   align-self:center;
+}
+
+footer {
+    text-align: center;
+}

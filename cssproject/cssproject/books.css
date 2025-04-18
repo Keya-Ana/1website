@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+.tag {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 5%;
+}
+
+
+img {
+    border-radius: 10%;
+    border: 5px solid cyan;
+    margin-left: 1.5%;
+}
+
+hr {
+    margin: 10px ;
+}
+
+header {
+    max-width: 900px;
+    margin:40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background:no-repeat linear-gradient(lightblue,aliceblue,skyblue);
+}
+
+body {
+    
+    background-color:skyblue ;
+    background-position:right center;
+    background-repeat:no-repeat;
+    height: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+
+nav a {
+    font-size: larger;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+
+section {
+    font-size: smaller;
+    font-weight: lighter;
+    
+}
+
+button {
+    border-radius: 15%;
+    border: 5px double aliceblue;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 0.5%;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 100%;
+    max-width: 300px; 
+
+}
+
+.image-item button {
+    display: block;
+    margin-top: 10px; 
+}
+
+
+footer {
+    text-align: center;
+}

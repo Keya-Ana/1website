@@ -10,13 +10,13 @@ def create_tables():
     cursor.execute('''CREATE TABLE IF NOT EXISTS users (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
                         username TEXT UNIQUE NOT NULL,
-                        email TEXT UNIQUE NOT NULL,NULL,
+                        email TEXT UNIQUE NOT NULL,
                         password TEXT NOT NULL)''')
 
     conn.commit()
     conn.close()
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     create_tables()
 
 
@@ -88,7 +88,7 @@ def dashboard():
     if "user_id" not in session:
         flash("Please log in first.", "warning")
         return redirect(url_for("login"))
-    return render_template("dashboard.html", username=session["username"])
+    return render_template("login.html", username=session["username"])
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     app.run(debug=True)

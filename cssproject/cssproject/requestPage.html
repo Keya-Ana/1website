@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="order-form">
+    <h1>Order Request</h1>
+    
+    <form id="orderForm">
+      <!-- Product Details Section -->
+      <label for="productDetails">Describe what you want:</label>
+      <textarea id="productDetails" name="productDetails" rows="4" placeholder="Enter details of your product request"></textarea>
+
+      <!-- Delivery Information Section -->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      
+      <label for="address">Delivery Address:</label>
+      <textarea id="address" name="address" rows="4" placeholder="Enter your delivery address" required></textarea>
+
+      <label for="contact">Contact Number:</label>
+      <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" required>
+
+      <!-- Payment Information Section -->
+      <label for="payment">Payment Method:</label>
+      <select id="payment" name="payment">
+        <option value="creditCard">Credit Card</option>
+        <option value="paypal">PayPal</option>
+        <option value="bankTransfer">Bank Transfer</option>
+        <option value="Cash">Cash</option>
+      </select>
+
+      <label for="paymentDetails">Payment Details:</label>
+      <input type="text" id="paymentDetails" name="paymentDetails" placeholder="Enter your payment details" required>
+
+      <select id="delivery" name="Delivery Method">
+        <option value="Pickup">Pickup</option>
+        <option value="Delivery">Delivery</option>
+      </select>
+      <p><strong>Delivery comes at a cost</strong>.</p>
+
+      <label for="productfeedback">Leave a comment</label>
+      <textarea id="productfeedback" name="productfeedback" rows="4" placeholder="What do you have to say about our products and services"></textarea>
+
+
+      <button type="submit" class="submit-order">Submit Order</button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById('orderForm').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent form from submitting
+      alert("Your order has been submitted successfully!");
+      // Optionally, redirect to a confirmation page or show a success message
+    });
+  </script>
+
+  <footer>
+    <footer>
+        <br>
+        <p class="copyright">
+        &lt;&lt;&lt; &copy; Starr Lit &gt;&gt;&gt;
+        </p>
+        <p>
+          <a href="#">Back to Top</a>
+        </p>
+        <p>
+          <a href="home.html">Home</a>
+        </p>
+    </footer>
+  </footer>
+
+</body>
+</html>
